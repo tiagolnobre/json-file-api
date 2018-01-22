@@ -1,0 +1,80 @@
+[{
+		"item": "item1",
+		"name": "Item 1",
+		"stock": true,
+		"prices": [
+      {
+				"country_code": "GB",
+				"price": [{
+						"name": "legacy",
+						"current": false,
+						"currency": "GBP",
+						"item": 555,
+						"shipping": {
+							"gb": 100,
+							"fr": 370
+						}
+					},
+					{
+						"name": "new",
+						"current": true,
+						"currency": "GBP",
+						"item": 666,
+						"shipping": {
+							"gb": 100,
+							"fr": 370
+						}
+					}]
+			},
+			{
+				"country_code": "FR",
+				"price": [{
+					"name": "legacy",
+					"current": true,
+					"currency": "EUR",
+					"item": 555,
+					"shipping": {
+						"gb": 100,
+						"fr": 370
+					}
+				}]
+			}
+		]
+	},
+	{
+		"item": "item2",
+		"name": "Item 2",
+		"stock": true,
+		"prices": [{
+			"country_code": "FR",
+			"price": [{
+				"name": "legacy",
+				"current": true,
+				"currency": "EUR",
+				"item": 777,
+				"shipping": {
+					"gb": 100,
+					"fr": 370
+				}
+			}]
+		}]
+	},
+	{
+		"item": "item3",
+		"name": "Item 3",
+		"stock": false,
+		"prices": [{
+			"country_code": "USA",
+			"price": [{
+				"name": "legacy",
+				"current": true,
+				"currency": "USD",
+				"item": 777,
+				"shipping": {
+					"gb": 100,
+					"fr": 370
+				}
+			}]
+		}]
+	}
+]

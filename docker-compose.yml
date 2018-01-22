@@ -1,0 +1,12 @@
+version: '2'
+services:
+  api:
+    build:
+      context: .
+      args:
+        app_env: ${APP_ENV}
+    volumes:
+      - .:/go/src/github.com/tiagolnobre/json-file-api
+    ports:
+      - "3000:3000"
+
